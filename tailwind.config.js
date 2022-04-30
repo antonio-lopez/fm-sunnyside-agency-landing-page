@@ -21,7 +21,9 @@ module.exports = {
         white: 'hsl(0, 0%, 100%)',
       },
       fontFamily: {
+        //Weights: 600
         'sans-serif': ['Barlow'],
+        //Weights: 700, 900
         serif: ['Fraunces'],
       },
     },
