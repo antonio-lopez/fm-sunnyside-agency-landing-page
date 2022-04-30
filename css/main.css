@@ -500,6 +500,10 @@ html {
   height: 24rem;
 }
 
+.h-\[33\.3rem\] {
+  height: 33.3rem;
+}
+
 .w-6 {
   width: 1.5rem;
 }
@@ -528,6 +532,10 @@ html {
   align-items: center;
 }
 
+.justify-end {
+  justify-content: flex-end;
+}
+
 .justify-between {
   justify-content: space-between;
 }
@@ -546,6 +554,14 @@ html {
 
 .bg-\[url\(\'\/images\/mobile\/image-header\.jpg\'\)\] {
   background-image: url('/images/mobile/image-header.jpg');
+}
+
+.bg-\[url\(\'\/images\/mobile\/image-graphic-design\.jpg\'\)\] {
+  background-image: url('/images/mobile/image-graphic-design.jpg');
+}
+
+.bg-\[url\(\'\/images\/mobile\/image-photography\.jpg\'\)\] {
+  background-image: url('/images/mobile/image-photography.jpg');
 }
 
 .bg-cover {
@@ -576,6 +592,11 @@ html {
   padding-right: 0.25rem;
 }
 
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 .pb-14 {
   padding-bottom: 3.5rem;
 }
@@ -586,6 +607,10 @@ html {
 
 .pb-2 {
   padding-bottom: 0.5rem;
+}
+
+.pb-6 {
+  padding-bottom: 1.5rem;
 }
 
 .text-center {
@@ -613,6 +638,16 @@ html {
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 }
 
 .font-semibold {
@@ -643,6 +678,16 @@ html {
 .text-darkGrayishBlue {
   --tw-text-opacity: 1;
   color: hsl(232 10% 55% / var(--tw-text-opacity));
+}
+
+.text-darkDesaturatedCyan {
+  --tw-text-opacity: 1;
+  color: hsl(167 40% 24% / var(--tw-text-opacity));
+}
+
+.text-darkBlue {
+  --tw-text-opacity: 1;
+  color: hsl(198 62% 26% / var(--tw-text-opacity));
 }
 
 .hover\:bg-yellow:hover {
