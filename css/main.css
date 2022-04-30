@@ -504,12 +504,20 @@ html {
   height: 33.3rem;
 }
 
+.h-16 {
+  height: 4rem;
+}
+
 .w-6 {
   width: 1.5rem;
 }
 
 .w-8 {
   width: 2rem;
+}
+
+.w-16 {
+  width: 4rem;
 }
 
 .grow {
@@ -534,6 +542,10 @@ html {
 
 .justify-end {
   justify-content: flex-end;
+}
+
+.justify-center {
+  justify-content: center;
 }
 
 .justify-between {
@@ -597,6 +609,21 @@ html {
   padding-right: 1rem;
 }
 
+.py-12 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
 .pb-14 {
   padding-bottom: 3.5rem;
 }
@@ -611,6 +638,18 @@ html {
 
 .pb-6 {
   padding-bottom: 1.5rem;
+}
+
+.pt-2 {
+  padding-top: 0.5rem;
+}
+
+.pt-8 {
+  padding-top: 2rem;
+}
+
+.pb-4 {
+  padding-bottom: 1rem;
 }
 
 .text-center {
@@ -670,6 +709,10 @@ html {
   letter-spacing: 0.1em;
 }
 
+.tracking-\[\.2rem\] {
+  letter-spacing: .2rem;
+}
+
 .text-white {
   --tw-text-opacity: 1;
   color: hsl(0 0% 100% / var(--tw-text-opacity));
@@ -688,6 +731,16 @@ html {
 .text-darkBlue {
   --tw-text-opacity: 1;
   color: hsl(198 62% 26% / var(--tw-text-opacity));
+}
+
+.text-grayishBlue {
+  --tw-text-opacity: 1;
+  color: hsl(210 4% 67% / var(--tw-text-opacity));
+}
+
+.text-veryDarkGrayishBlue {
+  --tw-text-opacity: 1;
+  color: hsl(213 9% 39% / var(--tw-text-opacity));
 }
 
 .hover\:bg-yellow:hover {
