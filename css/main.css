@@ -488,6 +488,50 @@ html {
   margin-top: 4rem;
 }
 
+.mt-20 {
+  margin-top: 5rem;
+}
+
+.mt-36 {
+  margin-top: 9rem;
+}
+
+.mt-48 {
+  margin-top: 12rem;
+}
+
+.mt-64 {
+  margin-top: 16rem;
+}
+
+.mt-72 {
+  margin-top: 18rem;
+}
+
+.mt-80 {
+  margin-top: 20rem;
+}
+
+.mt-96 {
+  margin-top: 24rem;
+}
+
+.mt-\[23\] {
+  margin-top: 23;
+}
+
+.mt-\[23rem\] {
+  margin-top: 23rem;
+}
+
+.mt-\[22rem\] {
+  margin-top: 22rem;
+}
+
+.mt-\[22\.5rem\] {
+  margin-top: 22.5rem;
+}
+
 .inline-block {
   display: inline-block;
 }
@@ -540,6 +584,34 @@ html {
   width: 4rem;
 }
 
+.w-96 {
+  width: 24rem;
+}
+
+.w-\[26rem\] {
+  width: 26rem;
+}
+
+.w-\[27rem\] {
+  width: 27rem;
+}
+
+.w-\[28rem\] {
+  width: 28rem;
+}
+
+.w-\[29rem\] {
+  width: 29rem;
+}
+
+.w-\[30rem\] {
+  width: 30rem;
+}
+
+.w-auto {
+  width: auto;
+}
+
 .grow {
   flex-grow: 1;
 }
@@ -576,6 +648,10 @@ html {
   --tw-space-y-reverse: 0;
   margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
+}
+
+.self-center {
+  align-self: center;
 }
 
 .rounded-full {
@@ -848,7 +924,103 @@ html {
 }
 
 @media (min-width: 1024px) {
+  .lg\:block {
+    display: block;
+  }
+
+  .lg\:flex {
+    display: flex;
+  }
+
+  .lg\:hidden {
+    display: none;
+  }
+
+  .lg\:h-\[40rem\] {
+    height: 40rem;
+  }
+
+  .lg\:h-\[43rem\] {
+    height: 43rem;
+  }
+
+  .lg\:h-\[45rem\] {
+    height: 45rem;
+  }
+
+  .lg\:h-\[44rem\] {
+    height: 44rem;
+  }
+
   .lg\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .lg\:bg-\[url\(\'\/images\/desktop\/image-header\.jpg\'\)\] {
+    background-image: url('/images/desktop/image-header.jpg');
+  }
+
+  .lg\:py-16 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .lg\:py-20 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .lg\:py-\[4\.5rem\] {
+    padding-top: 4.5rem;
+    padding-bottom: 4.5rem;
+  }
+
+  .lg\:pb-20 {
+    padding-bottom: 5rem;
+  }
+
+  .lg\:pb-24 {
+    padding-bottom: 6rem;
+  }
+
+  .lg\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .lg\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+
+  .lg\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .lg\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .lg\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+
+  .lg\:tracking-\[2rem\] {
+    letter-spacing: 2rem;
+  }
+
+  .lg\:tracking-\[1rem\] {
+    letter-spacing: 1rem;
+  }
+
+  .lg\:tracking-\[0\.2em\] {
+    letter-spacing: 0.2em;
+  }
+
+  .lg\:tracking-\[0\.22em\] {
+    letter-spacing: 0.22em;
   }
 }

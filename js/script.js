@@ -6,6 +6,3 @@ hamburger.addEventListener('click', (e) => {
   menu.classList.toggle('hidden');
   menu.classList.toggle('flex');
 });
-
-//remove hidden
-// add flex

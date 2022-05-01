@@ -24,22 +24,24 @@
     <div class="grid grid-cols-1">
       <!-- header -->
       <header
-        class="h-[30rem] bg-[url('/images/mobile/image-header.jpg')] bg-cover"
+        class="h-[30rem] bg-[url('/images/mobile/image-header.jpg')] bg-cover lg:h-[44rem] lg:bg-[url('/images/desktop/image-header.jpg')]"
       >
-        <nav class="flex justify-between px-6 py-7">
-          <h1 class="font-sans-serif text-xl font-semibold text-white">
+        <nav class="flex items-center justify-between px-6 py-7">
+          <h1
+            class="font-sans-serif text-xl font-semibold text-white lg:text-3xl"
+          >
             sunnyside
           </h1>
+          <!-- mobile menu -->
           <img
             id="hamburger"
-            class="h-4 w-6"
+            class="h-4 w-6 lg:hidden"
             src="/images/icon-hamburger.svg"
             alt="hamburger menu icon"
           />
-          <!-- mobile menu -->
           <ul
             id="menu"
-            class="absolute left-6 right-6 mt-16 hidden flex-col items-center space-y-6 bg-white py-11 sm:w-auto sm:self-center"
+            class="absolute left-6 right-6 mt-[23rem] hidden flex-col items-center space-y-6 bg-white py-11"
           >
             <li class="font-sans-serif text-darkGrayishBlue">
               <a href="/#">About</a>
@@ -54,11 +56,30 @@
               <a href="/#">CONTACT</a>
             </li>
           </ul>
+          <!-- desktop menu -->
+          <ul class="hidden w-[27rem] items-center justify-between lg:flex">
+            <li class="font-sans-serif text-white">
+              <a href="/#">About</a>
+            </li>
+            <li class="font-sans-serif text-white">
+              <a href="/#">Services</a>
+            </li>
+            <li class="font-sans-serif text-white">
+              <a href="/#">Projects</a>
+            </li>
+            <li class="rounded-full bg-white py-3 px-5 font-serif">
+              <a href="/#">CONTACT</a>
+            </li>
+          </ul>
         </nav>
         <main
-          class="flex flex-col items-center p-11 text-center font-serif text-4xl text-white"
+          class="flex flex-col items-center p-11 text-center font-serif text-4xl text-white lg:py-[4.5rem] lg:text-5xl"
         >
-          <h1 class="pb-14 font-black tracking-widest">WE ARE CREATIVES</h1>
+          <h1
+            class="pb-14 font-black tracking-widest lg:pb-24 lg:tracking-[0.22em]"
+          >
+            WE ARE CREATIVES
+          </h1>
           <img
             class="w-8"
             src="/images/icon-arrow-down.svg"
