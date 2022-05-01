@@ -1031,6 +1031,10 @@ html {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
+  .lg\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
   .lg\:bg-\[url\(\'\/images\/desktop\/image-header\.jpg\'\)\] {
     background-image: url('/images/desktop/image-header.jpg');
   }
