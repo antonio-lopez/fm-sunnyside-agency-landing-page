@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution](https://your-solution-url.com)
-- [Live](https://your-live-site-url.com)
+- [Solution](https://www.frontendmentor.io/solutions/sunnyside-agency-landing-page-using-tailwind-css-By2s2r2r5)
+- [Live](https://antonio-sunny-agency-landing.netlify.app/)
 
 ## My process
 
@@ -50,7 +50,8 @@ I learned about the Mark Text Element and how to tweak the line height using Tai
 
 ```
 <a class="text-center font-serif font-bold" href="/#">
-	<mark class="inline-block rounded-full bg-yellow px-1 pb-2 leading-[0]">LEARN MORE</mark></a>
+	<mark class="inline-block rounded-full bg-yellow px-1 pb-2 leading-[0]">LEARN MORE</mark>
+</a>
 ```
 
 Also learned how to a mobile menu open and close using Javascript.
