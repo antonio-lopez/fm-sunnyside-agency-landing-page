@@ -11,6 +11,7 @@ module.exports = {
         //photography text
         darkBlue: 'hsl(198, 62%, 26%)',
         //footer
+        moderateCyan: 'hsl(167, 44%, 70%)',
         darkModerateCyan: 'hsl(168, 34%, 41%)',
 
         //NEUTRAL

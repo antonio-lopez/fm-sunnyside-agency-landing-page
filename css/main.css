@@ -508,6 +508,10 @@ html {
   height: 4rem;
 }
 
+.h-80 {
+  height: 20rem;
+}
+
 .w-6 {
   width: 1.5rem;
 }
@@ -562,6 +566,11 @@ html {
 
 .bg-softRed\/30 {
   background-color: hsl(7 99% 70% / 0.3);
+}
+
+.bg-moderateCyan {
+  --tw-bg-opacity: 1;
+  background-color: hsl(167 44% 70% / var(--tw-bg-opacity));
 }
 
 .bg-\[url\(\'\/images\/mobile\/image-header\.jpg\'\)\] {
@@ -624,6 +633,21 @@ html {
   padding-bottom: 2rem;
 }
 
+.px-9 {
+  padding-left: 2.25rem;
+  padding-right: 2.25rem;
+}
+
+.px-24 {
+  padding-left: 6rem;
+  padding-right: 6rem;
+}
+
+.py-16 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
 .pb-14 {
   padding-bottom: 3.5rem;
 }
@@ -650,6 +674,10 @@ html {
 
 .pb-4 {
   padding-bottom: 1rem;
+}
+
+.pb-9 {
+  padding-bottom: 2.25rem;
 }
 
 .text-center {
@@ -743,6 +771,11 @@ html {
   color: hsl(213 9% 39% / var(--tw-text-opacity));
 }
 
+.text-darkModerateCyan {
+  --tw-text-opacity: 1;
+  color: hsl(168 34% 41% / var(--tw-text-opacity));
+}
+
 .hover\:bg-yellow:hover {
   --tw-bg-opacity: 1;
   background-color: hsl(51 100% 49% / var(--tw-bg-opacity));
@@ -751,6 +784,15 @@ html {
 .hover\:bg-softRed:hover {
   --tw-bg-opacity: 1;
   background-color: hsl(7 99% 70% / var(--tw-bg-opacity));
+}
+
+.hover\:fill-current:hover {
+  fill: currentColor;
+}
+
+.hover\:text-white:hover {
+  --tw-text-opacity: 1;
+  color: hsl(0 0% 100% / var(--tw-text-opacity));
 }
 
 @media (min-width: 1024px) {
