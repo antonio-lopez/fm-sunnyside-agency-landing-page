@@ -131,19 +131,32 @@
         </div>
         <!-- image cup grid -->
         <div>
-          <img src="/images/mobile/image-stand-out.jpg" alt="mobile grid cup" />
+          <img
+            class="lg:hidden"
+            src="/images/mobile/image-stand-out.jpg"
+            alt="mobile grid cup"
+          />
+          <img
+            class="hidden lg:block"
+            src="/images/desktop/image-stand-out.jpg"
+            alt="desktop grid cup"
+          />
         </div>
         <!-- text grid -->
-        <div class="flex h-96 flex-col">
-          <h1 class="px-10 pt-14 text-center font-serif text-3xl font-black">
+        <div class="flex h-96 flex-col lg:py-20 lg:pl-24 lg:pr-36">
+          <h1
+            class="px-10 pt-14 text-center font-serif text-3xl font-black lg:px-0 lg:text-left lg:text-4xl"
+          >
             Stand out to the right audience
           </h1>
-          <p class="py-7 px-6 text-center font-sans-serif text-darkGrayishBlue">
+          <p
+            class="py-7 px-6 text-center font-sans-serif text-darkGrayishBlue lg:px-0 lg:py-9 lg:text-left"
+          >
             Using a collaborative formula of designers, researchers,
             photographers, videographers, and copywriters, we’ll build and
             extend your brand in digital places.
           </p>
-          <a class="text-center font-serif font-bold" href="/#"
+          <a class="text-center font-serif font-bold lg:text-left" href="/#"
             ><mark
               class="inline-block rounded-full bg-softRed/30 px-1 pb-2 leading-[0] hover:bg-softRed"
               >LEARN MORE</mark
